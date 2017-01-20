@@ -18,7 +18,9 @@ send ```Your PM``` to @saeed_ieckta_bot in telegram
 # Developers
 * [@saeed_ieckta](https://telegram.me/saeed_ieckta)*
 * [@MutePuker](https://telegram.me/MutePuker) - Shervin* 
+
 تشکر از:
+
 mute team
 
 # Commands
