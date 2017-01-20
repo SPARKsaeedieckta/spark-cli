@@ -982,32 +982,32 @@ local res = http.request(database.."joke.db")
       end
       if input:match("^[#!/][Ss]ettings$") and is_mod(msg) then
         local text = "👥 SuperGroup Settings :".."\n"
-        .."*Lock Flood => *".."`"..flood.."`".."\n"
-        .."*Lock Link => *".."`"..link.."`".."\n"
-        .."*Lock Tag => *".."`"..tag.."`".."\n"
-        .."*Lock Username => *".."`"..username.."`".."\n"
-        .."*Lock Forward => *".."`"..forward.."`".."\n"
-        .."*Lock Arabic/Persian => *".."`"..arabic..'`'..'\n'
-        .."*Lock English => *".."`"..eng..'`'..'\n'
-        .."*Lock Reply => *".."`"..reply..'`'..'\n'
-        .."*Lock Fosh => *".."`"..badword..'`'..'\n'
-        .."*Lock Edit => *".."`"..edit..'`'..'\n'
-        .."*Lock Caption => *".."`"..caption..'`'..'\n'
-        .."*Lock Inline => *".."`"..inline..'`'..'\n'
-        .."*Lock Emoji => *".."`"..emoji..'`'..'\n'
-        .."*➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖*".."\n"
-        .."🗣 Mute List :".."\n"
-        .."*Mute All : *".."`"..All.."`".."\n"
-        .."*Mute Sticker : *".."`"..sticker.."`".."\n"
-        .."*Mute Gif : *".."`"..gift.."`".."\n"
-        .."*Mute Contact : *".."`"..contact.."`".."\n"
-        .."*Mute Photo : *".."`"..photo.."`".."\n"
-        .."*Mute Audio : *".."`"..audio.."`".."\n"
-        .."*Mute Voice : *".."`"..voice.."`".."\n"
-        .."*Mute Video : *".."`"..video.."`".."\n"
-        .."*Mute Document : *".."`"..document.."`".."\n"
-        .."*Mute Text : *".."`"..text1.."`".."\n"
-        .."*Mute Team* - @MuteTeam"
+        .."<b>Lock Flood</b> 〰 *".."`"..flood.."`".."\n"
+        .."<b>Lock Link</b> 〰 *".."`"..link.."`".."\n"
+        .."<b>Lock Tag</b> 〰 *".."`"..tag.."`".."\n"
+        .."<b>Lock Username</b> 〰 *".."`"..username.."`".."\n"
+        .."<b>Lock Forward</b> 〰 *".."`"..forward.."`".."\n"
+        .."<b>Lock Arabic</b> 〰 *".."`"..arabic..'`'..'\n'
+        .."<b>Lock English</b> 〰 *".."`"..eng..'`'..'\n'
+        .."<b>Lock Reply</b> 〰 *".."`"..reply..'`'..'\n'
+        .."<b>Lock Fosh</b> 〰 *".."`"..badword..'`'..'\n'
+        .."<b>Lock Edit</b> 〰 *".."`"..edit..'`'..'\n'
+        .."<b>Lock Caption</b> 〰 *".."`"..caption..'`'..'\n'
+        .."<b>Lock Inline</b> 〰 *".."`"..inline..'`'..'\n'
+        .."<b>Lock Emoji</b> 〰 *".."`"..emoji..'`'..'\n'
+        .."🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺".."\n"
+        .."⚡️<b>Mute List</b> 〰 ".."\n"
+        .."*⚡️<b>Mute All</b> 〰 *".."`"..All.."`".."\n"
+        .."*⚡️<b>Mute Sticker</b> 〰 *".."`"..sticker.."`".."\n"
+        .."*⚡️<b>Mute Gif</b> 〰 *".."`"..gift.."`".."\n"
+        .."*⚡️<b>Mute Contact</b> 〰 *".."`"..contact.."`".."\n"
+        .."*⚡️<b>Mute Photo</b>  〰 *".."`"..photo.."`".."\n"
+        .."*⚡️<b>Mute Audio</b> 〰 *".."`"..audio.."`".."\n"
+        .."*⚡️<b>Mute Voice</b> 〰 *".."`"..voice.."`".."\n"
+        .."*⚡️<b>Mute Video</b> 〰 *".."`"..video.."`".."\n"
+        .."*⚡️<b>Mute Document</b> 〰 *".."`"..document.."`".."\n"
+        .."*⚡️<b>Mute Text</b> 〰 *".."`"..text1.."`".."\n"
+        .."@saeed_ieckta - @TEAM_SPARK"
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
       if input:match("^[#!/][Ff]wd$") then
