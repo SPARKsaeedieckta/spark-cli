@@ -1,10 +1,10 @@
-# [TeleMute](https://github.com/MutePuker/TeleMute)
+# [spark-cli](https://github.com/SPARKsaeedieckta/spark-cli)
 *TG-CLI based broadcasting bot!*
 # Install
 ```
 cd $HOME
-git clone https://github.com/MutePuker/TeleMute.git
-cd TeleMute
+git clone https://github.com/SPARKsaeedieckta/spark-cli
+cd spark-cli
 chmod +x install.sh
 chmod +x launch.sh
 chmod +x tg
@@ -14,10 +14,12 @@ chmod +x tg
 ```
 Create a bot!
 # Help And More...
-send ```Your PM``` to @MutePukerBot in telegram
+send ```Your PM``` to @saeed_ieckta_bot in telegram
 # Developers
-* [@MutePuker](https://telegram.me/MutePuker) - Shervin
-* [@amirhossein_h_h_h](https://telegram.me/amirhossein_h_h_h) - amirhosein
+* [@saeed_ieckta](https://telegram.me/saeed_ieckta)*
+* [@MutePuker](https://telegram.me/MutePuker) - Shervin* 
+تشکر از:
+mute team
 
 # Commands
 
@@ -80,4 +82,4 @@ send ```Your PM``` to @MutePukerBot in telegram
 > [!/]unmute all 
 >>>UnMute All MSG To Group
 
-<b>Powered By MuteTeam</b>
+<b>Powered By spark</b>
